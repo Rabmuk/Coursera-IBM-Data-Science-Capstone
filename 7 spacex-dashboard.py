@@ -84,7 +84,7 @@ def get_pie_chart(entered_site):
             data, 
             values='count', 
             names='class', 
-            title='Successful Launches by Site'
+            title=f'Success Ratio at {entered_site}'
         )
         return fig
 
